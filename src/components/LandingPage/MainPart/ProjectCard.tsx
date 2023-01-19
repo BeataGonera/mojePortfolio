@@ -24,7 +24,7 @@ export const ProjectCard:FC<ProjectCard> = ({projectName, projectImage, projectD
 
     return ( 
         <div className="project-card w-full lg:min-h-32 md:min-h-96 mb-2 md:mb-4 bg-silver text-white relative">
-            <figure className='flex justify-between items-center p-4 md:p-6 gap-8'>
+            <figure className='flex justify-between items-center p-4 pb-0 md:p-6 gap-8'>
                 <div className='w-full self-start'>
                     <figcaption className='md:text-center text-[1rem] md:text-2xl mb-2 md:mb-8'>{projectName}</figcaption>
                     <div className='project-details mr-2 mb-12 lg:mb-0'>

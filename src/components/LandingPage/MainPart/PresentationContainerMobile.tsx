@@ -14,7 +14,7 @@ export const PresentationContainerMobile = () => {
             <h2><span className="text-yellow-orange">Front-end </span>Developer</h2>
             <p>with strong <br></br>interest in UX</p>
             <button className="bg-yellow-orange text-black h-9 w-28 rounded-sm text-[0.8rem] hover:bg-white mt-4" onClick={navigateToContactPage}>Contact me</button>
-            <img src='/my-photo.png' className="absolute top-10 right-5 rounded-[50px]" width='135' height='232'/>
+            <img src='/My-photo.webp' className="absolute top-10 right-5 rounded-[50px]" width='135' height='232'/>
         </div>
      );
 }

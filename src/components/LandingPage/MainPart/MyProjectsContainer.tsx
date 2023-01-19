@@ -20,8 +20,8 @@ export const MyProjectsContainer = () => {
             <ProjectCard 
                 projectName="BookShare" 
                 projectImage="BookShare.png" 
-                projectDescriptionEng='Responsive application of my idea and design for sharing books among users.'
-                projectDescriptionPl='Responsywna aplikacja oparta o Google Books API, która umożliwia dzielenie się książkami.'
+                projectDescriptionEng="Responsive application I am currently working on. Application is based on Google Books API and it's purpose is sharing books among users."
+                projectDescriptionPl='Responsywna aplikacja, nad którą obecnie pracuję. Jest oparta o Google Books API i umożliwia dzielenie się książkami.'
                 technologies={['React.js', 'Typescript', 'Material UI', 'Google Books API', 'Firebase Database and Authentication']}
                 links={[
                     {linkNameEng: 'Screen recording', linkNamePl:'Nagranie ekranu', link:'https://firebasestorage.googleapis.com/v0/b/portfolio-ec6b9.appspot.com/o/BSlight.webm?alt=media&token=112b2cef-a0ee-4dda-9b5b-cf330f7eaba3'},
