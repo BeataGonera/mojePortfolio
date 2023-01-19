@@ -42,7 +42,7 @@ export const SkillsMobile = () => {
                <ul>
                     <li>Material UI</li>
                     <li>Tailwind</li>
-                    <li>Cypress</li>
+                    <li>REST API</li>
                     <li>UX Design</li>
                     <li>Figma</li>
                </ul>
