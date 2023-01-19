@@ -21,13 +21,13 @@ export const MyProjectsContainer = () => {
                 projectName="BookShare" 
                 projectImage="BookShare.png" 
                 projectDescriptionEng='Responsive application of my idea and design for sharing books among users.'
-                projectDescriptionPl='Responsywna aplikacja oparta o Google Books API, która umozliwia dzielenie się ksiazkami.'
+                projectDescriptionPl='Responsywna aplikacja oparta o Google Books API, która umożliwia dzielenie się książkami.'
                 technologies={['React.js', 'Typescript', 'Material UI', 'Google Books API', 'Firebase Database and Authentication']}
                 links={[
-                    {linkNameEng:'Screen recording', linkNamePl:'Nagranie ekranu', link:'https://firebasestorage.googleapis.com/v0/b/portfolio-ec6b9.appspot.com/o/BSlight.webm?alt=media&token=112b2cef-a0ee-4dda-9b5b-cf330f7eaba3'},
+                    {linkNameEng: 'Screen recording', linkNamePl:'Nagranie ekranu', link:'https://firebasestorage.googleapis.com/v0/b/portfolio-ec6b9.appspot.com/o/BSlight.webm?alt=media&token=112b2cef-a0ee-4dda-9b5b-cf330f7eaba3'},
                     {linkNameEng: 'Application', linkNamePl:'Aplikacja', link:'https://bookshare-react.netlify.app/'},
                     {linkNameEng: 'Prototype', linkNamePl:'Prototyp', link:'https://www.figma.com/proto/HiDWWAOSVMWauUqFiFgX45/Bookshare?page-id=0%3A1&node-id=1%3A2&starting-point-node-id=1%3A2'},
-                    {linkNameEng: 'Repozytory', linkNamePl:'Repositorium', link: 'https://github.com/rajmanski/BookShare'}
+                    {linkNameEng: 'Repository', linkNamePl:'Repositorium', link: 'https://github.com/rajmanski/BookShare'}
                 ]}
                 />
 

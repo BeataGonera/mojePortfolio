@@ -43,36 +43,29 @@ export const ProjectCard:FC<ProjectCard> = ({projectName, projectImage, projectD
                         </ul>
                     </div>
                     
-                    
-                    {!polish && 
-                        <button className='md:hidden text-sm text-yellow-orange bg-silver font-light mt-2 h-4'>Show details</button>
-                        }
-
-                        {polish && 
-                        <button className='md:hidden text-sm text-yellow-orange bg-silver font-light pl-4 mt-2 h-4'>Rozwiń</button>
-                        }
                 </div>
                 <img src={projectImage} alt="" className='flex md:hidden lg:flex w-32 h-full md:w-[40%] md:h-full'/>
             </figure>
 
             <div className='w-full'>
                         {!polish && 
-                        <div className='text-yellow-orange font-light hidden md:flex lg:w-full underline justify-start lg:justify-start gap-2 lg:gap-12 mx-1 lg:mx-8 h-12'>
+                        <div className='text-yellow-orange font-light flex lg:w-full underline justify-start lg:justify-start gap-3 lg:gap-12 px-4 lg:px-6 min-h-12'>
                             {links.map((link, number)=> (
-                                <div key={number}><a href={link.link}>{link.linkNameEng}</a></div>
+                                <div key={number} className='mb-2 text-left text-[0.8rem] md:text-[1rem]'><a href={link.link}>{link.linkNameEng}</a></div>
                             )
                             )}
-
                         </div>
                         }
 
                         {polish && 
-                        <div className='text-yellow-orange font-light hidden md:flex lg:w-full underline justify-between lg:justify-start gap-2 lg:gap-12 mx-1 lg:mx-8 h-12'>
-                            {links.map((link)=> (
-                                <div><a href={link.link}>{link.linkNamePl}</a></div>
+                        <div className='text-yellow-orange font-light flex lg:w-full underline justify-start lg:justify-start gap-2 lg:gap-12 mx-1 px-4 lg:px-6 min-h-12'>
+                            {links.map((link, number)=> (
+                                <div key={number} className='text-center mb-2 md:text-left text-[0.9rem] md:text-[1rem]'><a href={link.link}>{link.linkNamePl}</a></div>
                             )
-                            )}
-                        </div>
+                         )}
+                     </div>
+
+                       
                         }
                     </div>
           
