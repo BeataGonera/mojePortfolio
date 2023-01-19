@@ -13,7 +13,7 @@ export const SmallPresentationContainer = () => {
 
     return ( 
         <div className="w-full py-8 flex flex-col items-center h-[25rem]">
-            <img src='my-photo.png' className="rounded-full object-cover w-32 h-32 mb-8" />
+            <img src='My-photo.webp' className="rounded-full object-cover w-32 h-32 mb-8" />
             <h2 className="text-white text-lg">Beata Gonera</h2>
 
             {!polish && 
