@@ -3,13 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter as Router} from 'react-router-dom'
+import { LanguageProvider } from './components/LanguageProvider';
+import 'tw-elements';
+
+
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <LanguageProvider>
+        <App />
+      </LanguageProvider>
+    </Router>
   </React.StrictMode>
 );
 
