@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import PhoneEnabledOutlinedIcon from '@mui/icons-material/PhoneEnabledOutlined';
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { LanguageContext } from "../LanguageProvider";
 
 export const NavBarMobile = () => {

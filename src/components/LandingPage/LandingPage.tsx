@@ -1,6 +1,5 @@
 import { MainPart } from "./MainPart/MainPart";
 import { NavBar } from "./NavBar";
-import { PresentationContainer } from "./MainPart/PresentationContainer";
 import { SkillsContainer } from "../SkillsContainer/SkillsContainer";
 import { PresentationContainerMobile } from "./MainPart/PresentationContainerMobile";
 import { NavBarMobile } from "../../components/LandingPage/NavBarMobile";

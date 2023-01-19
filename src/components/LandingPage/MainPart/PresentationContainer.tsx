@@ -48,7 +48,7 @@ export const PresentationContainer = () => {
 
     }
 
-            <div className="photo hidden lg:block xl:w-[19rem] xl:h-[32rem] bg-cover mt-8" style={{backgroundImage: "url(my-photo.png)"}}></div>
+            <div className="photo hidden lg:block xl:w-[19rem] xl:h-[32rem] bg-cover mt-8" style={{backgroundImage: "url(My-photo.webp)"}}></div>
         </div>
      );
 }
