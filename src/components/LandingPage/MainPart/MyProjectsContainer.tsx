@@ -20,7 +20,7 @@ export const MyProjectsContainer = () => {
             <ProjectCard 
                 projectName="BookShare" 
                 projectImage="BookShare.png" 
-                projectDescriptionEng="Responsive application I am currently working on. Application is based on Google Books API and it's purpose is sharing books among users."
+                projectDescriptionEng="Responsive application I am currently working on. Application is based on Google Books API and its purpose is sharing books among users."
                 projectDescriptionPl='Responsywna aplikacja, nad którą obecnie pracuję. Jest oparta o Google Books API i umożliwia dzielenie się książkami.'
                 technologies={['React.js', 'Typescript', 'Material UI', 'Google Books API', 'Firebase Database and Authentication']}
                 links={[
