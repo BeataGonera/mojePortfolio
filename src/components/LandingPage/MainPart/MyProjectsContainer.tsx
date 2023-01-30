@@ -20,7 +20,7 @@ export const MyProjectsContainer = () => {
             <ProjectCard 
                 projectName="Gaming Geek" 
                 projectImage="GamingGeek.png" 
-                projectDescriptionEng="Application of my idea and design for planning boardgames gaming events. My goal is to keep the code clean and learn new things. So far I have learned using custom hooks and useReducer hook."
+                projectDescriptionEng="Application of my idea and design, I'm currently working on. Application for planning boardgames gaming events. My goal is to keep the code clean and learn new things. So far I have learned using custom hooks and useReducer hook."
                 projectDescriptionPl='Planner eventów planszówkowych, stworzony dla grupy fanów planszówek. Zależy mi na pisaniu czystego kodu i uczeniu się nowych rzeczy, jak custom hooks czy useReducer hook.'
                 technologies={['React.js', 'Typescript', 'Sass', 'Firebase Database and Authentication']}
                 links={[
@@ -32,8 +32,8 @@ export const MyProjectsContainer = () => {
             <ProjectCard 
                 projectName="BookShare" 
                 projectImage="BookShare.png" 
-                projectDescriptionEng="Responsive application I am currently working on. Application is based on Google Books API and its purpose is sharing books among users."
-                projectDescriptionPl='Responsywna aplikacja, nad którą obecnie pracuję. Jest oparta o Google Books API i umożliwia dzielenie się książkami.'
+                projectDescriptionEng="Responsive application based on Google Books API. Its purpose is sharing books among users."
+                projectDescriptionPl='Responsywna aplikacja oparta o Google Books API. Umożliwia dzielenie się książkami.'
                 technologies={['React.js', 'Typescript', 'Material UI', 'Google Books API', 'Firebase Database and Authentication']}
                 links={[
                     {linkNameEng: 'Screen recording', linkNamePl:'Nagranie ekranu', link:'https://firebasestorage.googleapis.com/v0/b/portfolio-ec6b9.appspot.com/o/BSlight.webm?alt=media&token=112b2cef-a0ee-4dda-9b5b-cf330f7eaba3'},
