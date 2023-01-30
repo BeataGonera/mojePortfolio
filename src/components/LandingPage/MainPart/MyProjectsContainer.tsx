@@ -25,7 +25,7 @@ export const MyProjectsContainer = () => {
                 technologies={['React.js', 'Typescript', 'Sass', 'Firebase Database and Authentication']}
                 links={[
                     {linkNameEng: 'Prototype', linkNamePl:'Prototyp', link:'https://www.figma.com/proto/2feI2EfHE0ZGb0spTsldPJ/Blaty-u-Ko%C5%82aty?page-id=0%3A1&node-id=26%3A1528&viewport=544%2C352%2C0.26&scaling=scale-down&starting-point-node-id=26%3A1528'},
-                    {linkNameEng: 'Repository', linkNamePl:'Repositorium', link: ''}
+                    {linkNameEng: 'Repository', linkNamePl:'Repozytorium', link: 'https://github.com/BeataGonera/Gaming-Geek'}
                 ]}
                 />
 
