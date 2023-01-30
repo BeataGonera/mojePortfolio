@@ -20,7 +20,7 @@ export const MyProjectsContainer = () => {
             <ProjectCard 
                 projectName="Gaming Geek" 
                 projectImage="GamingGeek.png" 
-                projectDescriptionEng="Application of my idea and design, I'm currently working on. Application for planning boardgames gaming events. My goal is to keep the code clean and learn new things. So far I have learned using custom hooks and useReducer hook."
+                projectDescriptionEng="Application I'm currently working on, of my idea and design. Its purpose is planning boardgame gaming events. My goal is to keep the code clean and learn new things. So far I have learned using custom hooks and useReducer hook."
                 projectDescriptionPl='Planner eventów planszówkowych, stworzony dla grupy fanów planszówek. Zależy mi na pisaniu czystego kodu i uczeniu się nowych rzeczy, jak custom hooks czy useReducer hook.'
                 technologies={['React.js', 'Typescript', 'Sass', 'Firebase Database and Authentication']}
                 links={[
