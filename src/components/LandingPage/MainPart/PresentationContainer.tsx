@@ -24,9 +24,8 @@ export const PresentationContainer = () => {
                 <h1 className="sm:text-3xl 2xl:text-5xl text-white mb-8 2xl:text-right"><span className="text-yellow-orange">Front-end </span>Developer</h1>
                 <div className="w-4/5">
                 <p className="text-sm text-white leading-6">After getting some experience in UX Design, 
-                    I have decided that coding is something I would like to do. 
-                    After graudating from Frontend Bootcamp, I have started designing 
-                    my first apps, prototyping and creating them. </p>
+                    I have decided that I would also like to learn how to build applications, not only design them. 
+                </p>
                 <p className="text-sm text-white mb-8 leading-6">I have built this responsive portfolio with Tailwind after I had <span className="text-yellow-orange underline"><a href='https://www.figma.com/file/E4NgJZBsA2kNd6vwA4nHRX/Portfolio?node-id=0%3A1&t=CSnqWtrrbiyW0OEi-1'>prototyped</a></span> it in Figma</p>
                 </div>
                 <button className="bg-yellow-orange h-9 w-28 rounded-sm text-sm hover:bg-white" onClick={navigateToContactPage}>Contact me</button>
