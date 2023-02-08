@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { LanguageContext } from "../../LanguageProvider"; 
-import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
 import { useNavigate } from "react-router";
 
 export const PresentationContainer = () => {
@@ -38,7 +37,7 @@ export const PresentationContainer = () => {
                 <h1 className="sm:text-3xl 2xl:text-5xl text-white mb-2">Beata Gonera</h1>
                 <h1 className="sm:text-3xl 2xl:text-5xl text-white mb-8 2xl:text-right"><span className="text-yellow-orange">Front-end </span>Developer</h1>
                 <div className="w-4/5">
-                <p className="text-sm text-white lg:mb-8 leading-6">Moja przygoda ze światem IT zaczęła się od UX Designu. Kiedy poznałam podstawy UX i zaczęłam tworzyć prototypy aplikacji, doszłam do wniosku, że chcę nauczyć się zamieniać je w działające aplikacje.</p>
+                <p className="text-sm text-white lg:mb-8 leading-6">Moja przygoda ze światem IT zaczęła się od UX Designu. Kiedy poznałam podstawy UX i zaczęłam tworzyć prototypy aplikacji, doszłam do wniosku, że chcę także nauczyć się zamieniać je w działające aplikacje.</p>
                 <p className="text-sm text-white mb-8 leading-6">Do stworzenia mojego responsywnego portfolio skorzystałam z biblioteki Tailwind i z Figmy, by zaprojektować <span className="text-yellow-orange underline"><a href='https://www.figma.com/file/E4NgJZBsA2kNd6vwA4nHRX/Portfolio?node-id=0%3A1&t=CSnqWtrrbiyW0OEi-1'>prototyp.</a></span></p>
 
                 </div>

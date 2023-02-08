@@ -22,8 +22,9 @@ export const MyProjectsContainer = () => {
                 projectImage="GamingGeek.png" 
                 projectDescriptionEng="Application I'm currently working on, of my idea and design. Its purpose is planning boardgame gaming events. My goal is to keep the code clean and learn new things. So far I have learned using custom hooks and useReducer hook."
                 projectDescriptionPl='Planner eventów planszówkowych, stworzony dla grupy fanów planszówek. Zależy mi na pisaniu czystego kodu i uczeniu się nowych rzeczy, jak custom hooks czy useReducer hook.'
-                technologies={['React.js', 'Typescript', 'Sass', 'Firebase Database and Authentication']}
+                technologies={['React.js', 'Typescript', 'Sass', 'Firebase', 'Board Game Atlas API']}
                 links={[
+                    {linkNameEng: 'Application', linkNamePl: 'Aplikacja', link: 'https://geeks-grouper.web.app/'},
                     {linkNameEng: 'Prototype', linkNamePl:'Prototyp', link:'https://www.figma.com/proto/2feI2EfHE0ZGb0spTsldPJ/Blaty-u-Ko%C5%82aty?page-id=0%3A1&node-id=26%3A1528&viewport=544%2C352%2C0.26&scaling=scale-down&starting-point-node-id=26%3A1528'},
                     {linkNameEng: 'Repository', linkNamePl:'Repozytorium', link: 'https://github.com/BeataGonera/Gaming-Geek'}
                 ]}
